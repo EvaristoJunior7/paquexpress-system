@@ -1,0 +1,32 @@
+# e3/.gitignore
+
+# API Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+evidencias/ 
+
+# Flutter
+/build
+/.dart_tool
+/.pub-cache
+/.pub/
+/flutterr_app.iml
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS
+/ios/.generated
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+
+# Database 
+*.db
